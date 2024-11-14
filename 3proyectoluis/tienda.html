@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monster House</title>
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Encabezado */
+    header {
+      background-image: linear-gradient(to right, #8b008b, #4b0082);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    /* Menú de navegación */
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    /* Sección de productos */
+    .product-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .product {
+      background-color: #f1f1f1;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .product img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .product h3 {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    .product p {
+      margin-top: 5px;
+      font-size: 16px;
+      color: #888;
+    }
+
+    /* Chat en vivo */
+    .live-chat {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Monster House</h1>
+  </header>
+
+  <nav>
+    <a href="#">Accesorios</a>
+    <a href="#">Disfraces</a>
+    <a href="#">Maquillajes</a>
+    <a href="#">Máscaras</a>
+    <a href="#">Sucursales</a>
+  </nav>
+
+  <section class="product-section">
+    <div class="product">
+      <img src="d1.jpg" alt="Producto 1">
+      <h3>Producto 1</h3>
+      <p>$1,980.00</p>
+      <button>Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <img src="d2.jpg" alt="Producto 2">
+      <h3>Producto 2</h3>
+      <p>$2,500.00</p>
+      <button>Agregar al carrito</button>
+    </div>
+    <!-- Agrega más productos aquí -->
+  </section>
+
+  <a href="#" class="live-chat">Whatsapp Live Chat</a>
+</body>
+</html>
